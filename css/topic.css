@@ -825,7 +825,11 @@ strong {
 .questions .container .content img{
   width: 400px;
 }
-
+@media (max-width:990px){
+ .questions .container .content img{
+  width:350px;
+ }
+}
 .questions .container .content .que h5{
   position:relative;
   display: flex;
@@ -933,9 +937,9 @@ strong {
 
 /*  start footer */
 .footer{
-  height:60vh;
   padding: 100px 50px;
   position:relative;
+  border-bottom: 8px solid var(--secondary-color);
 }
 .footer .logo {
   font-size: 35px;
@@ -968,5 +972,14 @@ strong {
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   right: 0;
   bottom: 0;
+}
+@media (max-width:990px){
+  .footer{
+    flex-direction: column;
+    gap:35px;
+  }
+  .footer .w-100on4{
+    width: 70%;
+  }
 }
 /*  end footer */
