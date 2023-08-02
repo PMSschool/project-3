@@ -879,7 +879,7 @@ strong {
     flex-direction: column;
   }
   .questions .container h2{
-    width: 360px;
+    width: 100%;
     font-size: 35px;
   }
 }
